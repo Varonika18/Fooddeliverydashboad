@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dashboard.ui.home.HomeFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.dashboard.ui.gallery.GalleryFragment"
+        android:label="Download"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.dashboard.ui.slideshow.SlideshowFragment"
+        android:label="Earning"
+
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/main2"
+        android:name="com.example.dashboard.MainActivity2"
+        android:label="Varification"/>
+    <activity
+        android:id="@+id/main3"
+        android:name="com.example.dashboard.MainActivity3"
+        android:label="Shop"/>
+   <activity
+       android:id="@+id/main4"
+       android:name="com.example.dashboard.MainActivity4"
+       android:label="Payment"/>
+<activity
+    android:id="@+id/main5"
+    android:name="com.example.dashboard.MainActivity5"
+    android:label="Purchased Package"/>
+</navigation>

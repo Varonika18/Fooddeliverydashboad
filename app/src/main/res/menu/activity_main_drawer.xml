@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_water_damage_24"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="Earning" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_save_alt_24"
+            android:title="Download"/>
+        <item
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/main2"
+
+            android:icon="@drawable/ic_baseline_more_horiz_24"
+            android:title="Varification" />
+        <item
+            android:icon="@drawable/ic_baseline_redeem_24"
+            android:title="Purchased Package" />
+        <item
+
+            android:icon="@drawable/ic_baseline_store_24"
+            android:title="Shop" />
+        <item
+
+            android:icon="@drawable/ic_baseline_request_quote_24"
+            android:title="Payment" />
+    </group>
+
+
+
+
+
+
+</menu>

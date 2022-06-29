@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ED2C2C"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="220dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:text="  Products"
+                            android:textColor="#020202"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/ic_baseline_shopping_cart_24" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="   40"
+                        android:textColor="#050505"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#EF912C"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="220dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:text=" Total sale"
+                            android:textColor="#020202"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/ic_baseline_account_balance_wallet_24" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="  27"
+                        android:textColor="#050505"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#3EED3E"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="220dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:text=" Total Earning"
+                            android:textColor="#020202"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/ic_baseline_monetization_on_24" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="  7627"
+                        android:textColor="#050505"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#4040F4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="280dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:text=" Successful order"
+                            android:textColor="#020202"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:src="@drawable/ic_baseline_chat_bubble_outline_24" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="  21"
+                        android:textColor="#050505"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="#54ABD8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Best Selling"
+                    android:textColor="#070707"
+                    android:textSize="34dp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="#54ABD8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Recent Order"
+                    android:textColor="#070707"
+                    android:textSize="34dp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv1"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv2"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv3"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv4"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv5"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="384dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv6"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        tools:src="@tools:sample/avatars" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="180dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Dish name"
+                        android:textSize="27sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="$150"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+
+
